@@ -74,14 +74,18 @@ Example of recommending interventions for a student, showcasing how the model's 
 ### Mean Absolute Error (MAE)
 The Mean Absolute Error is calculated as:
 
-\[ MAE = rac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| \]
+$$ 
+MAE = rac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
+$$
 
 where \( y_i \) is the actual value and \( \hat{y}_i \) is the predicted value.
 
 ### Root Mean Squared Error (RMSE)
 The Root Mean Squared Error is calculated as:
 
-\[ RMSE = \sqrt{rac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2} \]
+$$
+RMSE = \sqrt{rac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
+$$
 
 where \( y_i \) is the actual value and \( \hat{y}_i \) is the predicted value.
 
