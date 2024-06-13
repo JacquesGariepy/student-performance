@@ -1,3 +1,4 @@
+
 # Student Performance Prediction and Educational Interventions
 
 This project aims to predict student performance and provide educational interventions based on influential factors. We use the Student Performance Data Set, combining math and Portuguese language datasets to build a predictive model and offer tailored recommendations.
@@ -12,6 +13,7 @@ This project aims to predict student performance and provide educational interve
 - [Feature Importance](#feature-importance)
 - [Educational Interventions](#educational-interventions)
 - [Example Usage](#example-usage)
+- [Mathematical Concepts and Formulas](#mathematical-concepts-and-formulas)
 
 ## Installation
 
@@ -66,6 +68,25 @@ Provide tailored recommendations based on influential features identified during
 ## Example Usage
 
 Example of recommending interventions for a student, showcasing how the model's predictions can be used to provide personalized educational support.
+
+## Mathematical Concepts and Formulas
+
+### Mean Absolute Error (MAE)
+The Mean Absolute Error is calculated as:
+$$
+MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
+$$
+where \( y_i \) is the actual value and \( \hat{y}_i \) is the predicted value.
+
+### Root Mean Squared Error (RMSE)
+The Root Mean Squared Error is calculated as:
+$$
+RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
+$$
+where \( y_i \) is the actual value and \( \hat{y}_i \) is the predicted value.
+
+### Random Forest Regressor
+Random Forest is an ensemble learning method that operates by constructing multiple decision trees during training and outputting the mean prediction of the individual trees. The model combines the predictions from many decision trees to improve the overall prediction accuracy and control overfitting.
 
 ## License
 
